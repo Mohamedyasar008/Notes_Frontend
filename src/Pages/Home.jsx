@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Plus, LogOut } from "lucide-react";
 import toast from "react-hot-toast";
 import api from "../libs/Axios";
-import NoteCard from "../components/NoteCard";
+import NoteCard from "../Components/NoteCard";
 import NoNotes from "../components/NoNotes";
 import Fetching from "../Components/Fetching";
 import RateLimitedUI from "../Components/RatelimitedUI";
