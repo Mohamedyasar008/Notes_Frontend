@@ -4,7 +4,7 @@ import { Plus, LogOut } from "lucide-react";
 import toast from "react-hot-toast";
 import api from "../libs/Axios";
 import NoteCard from "../Components/NoteCard";
-import NoNotes from "../components/NoNotes";
+import NoNotes from "../Components/NoNotes";
 import Fetching from "../Components/Fetching";
 import RateLimitedUI from "../Components/RatelimitedUI";
 
