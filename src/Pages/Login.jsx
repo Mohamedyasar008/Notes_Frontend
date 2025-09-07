@@ -27,7 +27,6 @@ const Login = () => {
       toast.error(error.response?.data?.message || "Login failed");
     } finally {
       setLoading(false)
-      navigate("/");
     }
   };
 

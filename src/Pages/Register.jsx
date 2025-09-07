@@ -28,7 +28,6 @@ const Register = () => {
       toast.error(error.response?.data?.message || "Registration failed");
     } finally {
       setLoading(false)
-      navigate("/");
     }
   };
 
